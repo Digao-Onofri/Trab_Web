@@ -1,0 +1,17 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    padding-top: 40px;
+    padding-bottom: 215px;
+    background-color: black;
+    align-items: center;
+
+    button{
+        border: 1px solid white;
+        border-radius: 1rem;
+        width: 80%;
+        cursor: pointer;
+    }
+}

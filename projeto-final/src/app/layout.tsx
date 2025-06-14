@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/app/ui/header"
 import Footer from "@/app/ui/footer"
+import styles from "@/app/styles/main.module.css"
 
 export const metadata: Metadata = {
   title: "Carros",
@@ -18,7 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-        {children}
+        <main className={styles.main}>
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

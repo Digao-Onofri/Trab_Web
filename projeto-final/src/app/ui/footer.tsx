@@ -6,18 +6,18 @@ export default function footer(){
             <div className={styles.container}>
 
                 <div className={styles.card}>
-                    <h3>Descubra o AutoHub</h3>
-                    <p>Bem-vindo ao lugar onde os apaixonados por carros se encontram. No AutoHub, você encontra informações, dicas e curiosidades sobre os veículos mais incríveis do mercado.</p>
+                    <h3>Desvende o seu Próximo Sonho</h3>
+                    <p>Bem-vindo à nossa garagem virtual! Encontre seu veículo ideal, explore uma vasta seleção de modelos e descubra a paixão sobre quatro rodas que te espera.</p>
                 </div>
 
                 <div className={styles.card}>
-                    <h3>Personalize sua experiência</h3>
-                    <p>Siga os modelos e marcas que você mais curte e receba atualizações diretamente na sua área personalizada. Explore agora.</p>
+                    <h3>Anuncie Seu Carro, Destaque Sua Máquina</h3>
+                    <p>Compartilhe seu veículo com a nossa comunidade. Crie um anúncio detalhado, adicione fotos impressionantes e alcance potenciais compradores ou admiradores apaixonados.</p>
                 </div>
 
                 <div className={styles.card}>
-                    <h3>Seja um membro premium</h3>
-                    <p>Tenha acesso exclusivo a análises completas, comparativos, avaliações e novidades do mundo automotivo. A partir de R$5/mês. Assine já.</p>
+                    <h3>Junte-se à Nossa Confraria Automotiva</h3>
+                    <p>Faça parte da nossa rede exclusiva. Tenha acesso a recursos avançados, dicas de manutenção, e conecte-se com entusiastas para trocar experiências e negócios.</p>
                 </div>
             </div>
 
