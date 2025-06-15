@@ -1,3 +1,5 @@
+// Componente formulario de cadastro
+
 import styles from "@/app/styles/formCadastro.module.css"
 
 export default function Cadastro(){

@@ -1,3 +1,5 @@
+/* CSS que estiliza a parte do conteúdo da página principal, que fica do lado do menu */
+
 .divPrincipal{
     display: flex;
     flex-direction: column;
@@ -39,6 +41,28 @@
             border-radius: 1rem;
             cursor: pointer;
             background-color: rgb(0, 0, 0);
+        }
+    }
+
+    .destaques{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-bottom: 50px;
+        width: 100%;
+
+        h3{
+            font-size: 1.8rem;
+        }
+
+        h2{
+            font-size: 1.3rem;
+        }
+
+        .card{
+            display: flex;
+            padding-top: 20px;
         }
     }
 }

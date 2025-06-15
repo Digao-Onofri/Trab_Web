@@ -1,3 +1,5 @@
+// Componente footer
+
 import styles from "@/app/styles/footer.module.css"
 
 export default function footer(){

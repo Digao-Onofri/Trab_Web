@@ -1,5 +1,7 @@
+// Componente que compoe todo o conteúdo da pagina inicial, que fica do lado do menu
+
 import styles from "@/app/styles/conteudoInicio.module.css"
-// import Card from "@/app/ui/card"
+import Card from "@/app/ui/card"
 import CarrosPadrao from "@/db/carrosPadrao-db.json"
 
 export default function ConteudoInicio(){
@@ -19,9 +21,9 @@ export default function ConteudoInicio(){
 
             <div className={styles.destaques}>
 
-                <h2>Carros em Destaque</h2>
+                <h3>Carros em Destaque</h3>
 
-                {/* <div className={styles.card}>
+                <div className={styles.card}>
                     {CarrosPadrao.map(carro => (
                         <Card 
                             key={carro.id}
@@ -31,7 +33,7 @@ export default function ConteudoInicio(){
                             descricao={carro.descricao}
                         />
                     ))}
-                </div> */}
+                </div>
 
             </div>
         </div>

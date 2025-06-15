@@ -1,3 +1,5 @@
+// Componente formulario de login
+
 import styles from "@/app/styles/formLogin.module.css";
 
 export default function Login() {

@@ -1,3 +1,5 @@
+// Componente header
+
 import styles from "@/app/styles/header.module.css"
 import Image from "next/image";
 
