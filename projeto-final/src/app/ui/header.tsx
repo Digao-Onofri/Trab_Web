@@ -5,6 +5,7 @@ export default function Header(){
     return(
         <header className={styles.header}>
             <Image src="/logo.jpg" alt="logo" width={150} height={150}/>
+            <p>Garagem Digital</p>
         </header>
     );
 }

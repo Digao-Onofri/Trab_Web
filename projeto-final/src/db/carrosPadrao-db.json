@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "nome": "Ferrari 488 GTB",
+    "img": "https://images.unsplash.com/photo-1542362543-d02377227d89?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "descricao": "Beleza e performance italianas em um só carro. Um verdadeiro sonho para colecionadores."
+  },
+  {
+    "id": "2",
+    "nome": "Mercedes-Benz AMG GT",
+    "img": "https://images.unsplash.com/photo-1594953930101-da796a5d7c57?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "descricao": "Luxo e esportividade alemã, com um motor potente e design marcante."
+  },
+  {
+    "id": "3",
+    "nome": "Nissan GT-R R35",
+    "img": "https://images.unsplash.com/photo-1549399229-8aa2715006b1?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "descricao": "O Godzilla japonês, conhecido por sua engenharia avançada e velocidade impressionante."
+  },
+  {
+    "id": "4",
+    "nome": "Audi R8",
+    "img": "https://images.unsplash.com/photo-1541443603415-32111c1e0821?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "descricao": "Um esportivo elegante com motor central, perfeito para quem busca adrenalina e estilo."
+  }
+]
