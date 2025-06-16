@@ -26,9 +26,9 @@ export default function footer(){
         <div className={styles.creditos}>
             <p>Feita por: </p>
             <ul>
-                <li><a href="https://github.com/IvanSilverio" target="_blank">Ivan</a></li>
+                <li><a href="https://github.com/IvanSilverio" target="_blank">Ivan Ribeiro</a></li>
                 <li><a href="https://github.com/pedrolmf33" target="_blank">Pedro Luiz</a></li>
-                <li><a href="https://github.com/Digao-Onofri" target="_blank">Rodrigo</a></li>
+                <li><a href="https://github.com/Digao-Onofri" target="_blank">Rodrigo Paiva</a></li>
             </ul>
         </div>
         </footer>
