@@ -29,7 +29,7 @@ export default function Card(props: CarrosProps){
                 alt={`Imagem do carro ${props.nome}`}
             />
             <p>{props.descricao}</p>
-            <div className="carros-buttons-container">
+            <div className={styles.carrosButtonsContainer}>
                 <Link href={`/dashboard/edit ${props.id}`} id="btn-edit">Editar</Link>
                 <form action={deleteCarro}>
                     <button id="btn-delete">Deletar</button>

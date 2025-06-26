@@ -14,10 +14,9 @@
     p{
         text-align: center;
     }
-    
-    .carros-buttons-container{
-        display: flex;
-        justify-content: center;
-        background-color: aliceblue;
-    }
+
+}
+
+.carrosButtonsContainer{
+    background-color: aquamarine;
 }
