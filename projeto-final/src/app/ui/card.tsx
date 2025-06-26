@@ -30,7 +30,7 @@ export default function Card(props: CarrosProps){
             />
             <p>{props.descricao}</p>
             <div className={styles.carrosButtonsContainer}>
-                <Link href={`/dashboard/edit ${props.id}`} className={styles.btnEdit} >Editar</Link>
+                <Link href={`/dashboard/edit/${props.id}`} className={styles.btnEdit} >Editar</Link>
                 <form action={deleteCarro}>
                     <button className={styles.btnDelete} id="btn-delete">Deletar</button>
                 </form>
