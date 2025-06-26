@@ -18,5 +18,26 @@
 }
 
 .carrosButtonsContainer{
-    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.btnEdit, .btnDelete{
+    font-size: 1.1rem;
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.btnEdit{
+    padding: 1.2px 4px;
+    background-color: green;
+    color: black;
+}
+
+.btnDelete{
+    padding: 1px;
+    background-color: red;
+    color: white;
 }
