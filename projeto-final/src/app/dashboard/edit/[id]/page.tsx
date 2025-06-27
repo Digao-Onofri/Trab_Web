@@ -2,7 +2,7 @@
 import Menu from "@/app/ui/menu"
 import ConexaoBD from "@/app/libs/conexao-bd";
 import styles from "@/app/styles/paginas.module.css";
-import styles2 from "@/app/styles/formCadCarro.module.css";
+import styles_edit_form from "@/app/styles/formCadCarro.module.css";
 import { CarrosProps } from "@/app/ui/card";
 import Image from "next/image";
 import { redirect } from "next/navigation";
@@ -40,8 +40,8 @@ export default async function editCarro({params}: EditCarroProps) {
                 <Menu />
             </div>
             <div className={styles.conteudo}>
-                <div className={styles2.div}>
-                    <form action={updateCarro} className={styles2.form}>
+                <div className={styles_edit_form.div}>
+                    <form action={updateCarro} className={styles_edit_form.form}>
                         <h1>{carroToEdit.nome}</h1>                    
                         <Image src={carroToEdit.img}    
                             alt={carroToEdit.nome}

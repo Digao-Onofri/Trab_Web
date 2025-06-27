@@ -2,8 +2,14 @@
   {
     "id": "1",
     "nome": "Ferrari 488 GTB",
-    "img": "https://img2.icarros.com/dbimg/imgadicionalnoticia/4/74799_1.jpg",
-    "descricao": "Beleza e performance italianas em um só carro. Um verdadeiro sonho para colecionadores."
+    "descricao": "ivan cheiroso",
+    "img": "https://img2.icarros.com/dbimg/imgadicionalnoticia/4/74799_1.jpg"
+  },
+  {
+    "id": "2",
+    "nome": "Mercedes-Benz AMG GT",
+    "descricao": "Luxo e esportividade alemã, com um motor potente e design marcante.",
+    "img": "https://www.mercedesmagazine.com.br/wp-content/uploads/2020/07/20C0379_005.jpg"
   },
   {
     "id": "3",
