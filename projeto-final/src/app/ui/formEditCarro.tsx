@@ -10,7 +10,7 @@ export default function Login() {
         <input type="text" placeholder="Nome" />
         <input type="text" placeholder="Link da imagem" />
         <input type="text" placeholder="Descrição" />
-        <button type="submit"><a href="/main/inicio">Cadastrar</a></button>
+        <button type="submit"><a href="/main/inicio">Atualizar</a></button>
       </form>
     </div>
   );
