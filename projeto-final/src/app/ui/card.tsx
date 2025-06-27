@@ -3,7 +3,10 @@
 import Image from "next/image";
 import styles from "@/app/styles/card.module.css"
 import Link from "next/link";
+import ConexaoBD from "../libs/conexao-bd";
+import { redirect } from "next/navigation";
 
+const bd : string = 'carros-db.json';
 
 // Criando e definindo o tipo do Card, que sempre terá esse formato
 export interface CarrosProps{
@@ -17,6 +20,11 @@ export default function Card(props: CarrosProps){
 
     const deleteCarro = async () => {
         'use server';
+        const carro = await ConexaoBD.retornaBD(bd);
+        const carroToRemove = carro.findIndex((c) => c.id === props.id);
+        carro.splice(carroToRemove,1);
+        await ConexaoBD.armazenaBD(bd, carro);
+        redirect('/dashboard');
     }
 
     return(

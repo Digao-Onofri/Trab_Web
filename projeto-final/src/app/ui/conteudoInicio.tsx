@@ -2,7 +2,7 @@
 
 import styles from "@/app/styles/conteudoInicio.module.css"
 import Card from "@/app/ui/card"
-import CarrosPadrao from "@/db/carrosPadrao-db.json"
+import CarrosPadrao from "@/db/carros-db.json"
 
 export default function ConteudoInicio(){
     return(
@@ -34,7 +34,6 @@ export default function ConteudoInicio(){
                         />
                     ))}
                 </div>
-
             </div>
         </div>
     );
