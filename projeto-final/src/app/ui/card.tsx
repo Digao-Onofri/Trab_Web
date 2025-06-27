@@ -24,7 +24,7 @@ export default function Card(props: CarrosProps){
         const carroToRemove = carro.findIndex((c) => c.id === props.id);
         carro.splice(carroToRemove,1);
         await ConexaoBD.armazenaBD(bd, carro);
-        redirect('/dashboard');
+        redirect('/main/inicio');
     }
 
     return(
