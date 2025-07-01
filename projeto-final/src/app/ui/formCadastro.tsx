@@ -10,7 +10,7 @@ export default function Cadastro(){
                 <input type="text" placeholder="Nome"/>
                 <input type="password" placeholder="Senha"/>
                 <input type="password" placeholder="Confirmar Senha"/>
-                <button><a href="/.">Cadastrar</a></button>
+                <button><a href="/">Cadastrar</a></button>
             </form>
         </div>
     );
