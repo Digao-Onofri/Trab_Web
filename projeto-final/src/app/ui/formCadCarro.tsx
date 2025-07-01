@@ -3,9 +3,13 @@ import styles from "@/app/styles/formCadCarro.module.css"
 
 export default function Login() {
 
+  const AddCarro = () => {
+
+  }
+  
   return (
     <div className={styles.div}>
-      <form action="" className={styles.form}>
+      <form action={AddCarro} className={styles.form}>
         <h1>Cadastre um novo carro</h1>
         <input type="text" placeholder="Nome" />
         <input type="text" placeholder="Link da imagem" />
