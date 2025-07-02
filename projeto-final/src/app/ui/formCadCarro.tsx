@@ -3,8 +3,9 @@ import styles from "@/app/styles/formCadCarro.module.css"
 
 export default function Login() {
 
-  const AddCarro = () => {
-
+  const AddCarro = async () => {
+    'use server'
+    
   }
   
   return (

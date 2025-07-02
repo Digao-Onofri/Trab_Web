@@ -7,6 +7,8 @@ import { CarrosProps } from "@/app/ui/card";
 import Image from "next/image";
 import { redirect } from "next/navigation";
 
+// Update do cadastro de um carro específico
+
 const arquivo = 'carros-db.json';
 
 interface EditCarroProps{
