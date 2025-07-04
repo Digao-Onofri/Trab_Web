@@ -1,5 +1,11 @@
 [
   {
+    "id": "0",
+    "nome": "Audi R8",
+    "img": "https://s2-autoesporte.glbimg.com/IRjHz7CRYSusKyfN-rX3JuK-JwY=/0x0:620x413/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2020/K/r/kunMKARZOWDR3dh9UGaQ/2019-03-01-audi-r8-v10-decennium-2019-1600-01.jpg",
+    "descricao": "Um esportivo elegante com motor central, perfeito para quem busca adrenalina e estilo."
+  },
+  {
     "id": "2",
     "nome": "Mercedes-Benz AMG GT",
     "descricao": "Luxo e esportividade alemã, com um motor potente e design marcante.",
@@ -7,20 +13,104 @@
   },
   {
     "id": "3",
-    "nome": "Nissan GT-R R35",
-    "img": "https://revistafullpower.com.br/wp-content/uploads/2024/03/nissagtrnismo.jpg",
-    "descricao": "O Godzilla japonês, conhecido por sua engenharia avançada e velocidade impressionante."
+    "nome": "Nissan GT-R R35 NISMO",
+    "descricao": "O Godzilla japonês, conhecido por sua engenharia avançada e velocidade impressionante.",
+    "img": "https://revistafullpower.com.br/wp-content/uploads/2024/03/nissagtrnismo.jpg"
   },
   {
     "id": "4",
-    "nome": "Audi R8",
-    "img": "https://s2-autoesporte.glbimg.com/IRjHz7CRYSusKyfN-rX3JuK-JwY=/0x0:620x413/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2020/K/r/kunMKARZOWDR3dh9UGaQ/2019-03-01-audi-r8-v10-decennium-2019-1600-01.jpg",
-    "descricao": "Um esportivo elegante com motor central, perfeito para quem busca adrenalina e estilo."
+    "nome": "1991 HONDA NSX E-NA1",
+    "descricao": "Miliage: 107,000 km / Engine: 3.0L V6, DOHC, naturally aspirated / Chassis: All-aluminum monocoque (first production car to do so) / Front Suspension: Double wishbone / Rear Suspension: Double wishbone / Brakes: Ventilated discs (front & rear) / 0-100 km/h (0-62 mph): ~5.7 seconds / Top Speed: ~270 km/h (168 mph)",
+    "img": "https://static.carfromjapan.com/car_47730214-7c88-4055-8946-331de019c0cf_640_0"
+  },
+  {
+    "id": "5",
+    "nome": "1994 TOYOTA SUPRA E-JZA80 2WD",
+    "descricao": "Mileage: 75,100km / Engine: 3.0L 2JZ Twin Turbo variant /  Rz Turbo Engine / Getrag 6-speed Transmission Swap / RZ Brakes / TRD 320 Km/h Speedometer / TE37V Wheels / HKS 3.1L kit/ T51R Turbo/ External Wastegate / High-lift Camshafts / F-CON V Pro Version 3.2 Engine Management / Fuel Collector Tank / Exhaust Manifold / Ikeya Formula Full Front Arms / Front Suspension: Double wishbone /Rear Suspension: Double wishbone / Brakes: Ventilated discs (front & rear) / Tires (stock): 235/45R17 (front), 255/40R17 (rear) /0-100 km/h (0-62 mph): ~4.9 seconds / Top Speed: ~250 km/h (155 mph) [factory limited]",
+    "img": "https://static.carfromjapan.com/car_5e6999dc-4a89-45be-93c1-ec35fa50162f_640_0"
+  },
+  {
+    "id": "6",
+    "nome": "2002 NISSAN SKYLINE GT-R BNR34",
+    "descricao": "Mileage: 32,100 km / Engine: 2.6L RB26 Twin Turbo 2600cc / Transmition: 6-speed manual / Curb weigh of around 1560kg /Upgraded aero (carbon fiber rear diffuser) / Improved suspension tuning / Active rear LSD / Optional N1 turbos (on some variants) for track use /Lower ride height than base GT-R / Brakes: Brembo 4-pot front / 2-pot rear calipers/ 0-100 km/h (0-62 mph): ~4.9 seconds / Top Speed: ~250 km/h (155 mph) [factory limited]",
+    "img": "https://static.carfromjapan.com/car_1ccd256d-97b0-47e8-aa7e-39561301840a_640_0"
+  },
+  {
+    "id": "7",
+    "nome": "2001 MAZDA RX-7 GF-FD3S",
+    "descricao": "Mileage: 125,000 km / Engine: 1.3L Twin turbo rotary engine 1300cc / Suspension: Independent multi-link / Brakes: Ventilated discs (front & rear) / Tires: 235/45R17 (front & rear on Type R) / 0-100 km/h (0-62 mph): ~5.0 seconds / Top Speed: ~250 km/h (155 mph)",
+    "img": "https://static.carfromjapan.com/car_6b73697e-7983-47d1-bce9-6eac8484bed2_640_0"
+  },
+  {
+    "id": "8",
+    "nome": "1999 SUBARU IMPREZA GF-GC8 4WD",
+    "descricao": "Mileage: 173,000 km / Engine: 2.0L flat-4 (Boxer), DOHC, turbocharged, intercooled                   / Front Suspension: MacPherson strut / Rear Suspension: MacPherson strut / Brakes: Ventilated discs (front & rear) / Tires: 205/50R16 (standard), upgraded in RA and STI versions / 0-100 km/h (0-62 mph): ~5.2 seconds / Top Speed: ~240 km/h (149 mph)",
+    "img": "https://static.carfromjapan.com/car_1f2796fe-d900-405b-adb3-2a2d535ab5dd_640_0"
+  },
+  {
+    "id": "9",
+    "nome": "2000 MITSUBISHI LANCER 4WD",
+    "descricao": "Miliage: 58,000km / Engine: 2.0L inline-4, DOHC, turbocharged and intercooled / Front Suspension: MacPherson strut / Rear Suspension: Multi-link / Brakes: Brembo ventilated discs front and rear / 0-100 km/h (0-62 mph): ~4.7–5.0 seconds / Top Speed: ~240–250 km/h (149–155 mph)",
+    "img": "https://static.carfromjapan.com/car_3c15e854-a114-4b7d-9ce6-e2a2c8eff84e_640_0"
+  },
+  {
+    "id": "10",
+    "nome": "1992 NISSAN FAIRLADY Z E-GCZ32",
+    "descricao": "Miliage: 63,000km / Engine: 3.0L V6, DOHC, twin-turbocharged and intercooled / Front Suspension: Multi-link / Rear Suspension: Multi-link / Brakes: Ventilated disc brakes (front & rear) / Tires (stock): Front: 225/50R16 Rear: 245/45R16 / Front: 225/50R16 / Rear: 245/45R160-100 km/h (0-62 mph): ~5.6 seconds / Top Speed: ~250 km/h (155 mph, electronically limited)",
+    "img": "https://static.carfromjapan.com/car_ba0ec747-67fa-48a0-a0ca-d2a4c6d6c534_640_0"
+  },
+  {
+    "id": "11",
+    "nome": "2001 TOYOTA CHASER GX100",
+    "descricao": "Miliage: 34,000km / Engine: 2.5L inline-6 DOHC, twin-turbo (single turbo from late 1996 onward)/ Front Suspension: Independent strut / Rear Suspension: Multi-link / Brakes: Ventilated discs (front and rear) / LSD (Limited Slip Differential): Available (standard on Tourer V) / 0–100 km/h (0–62 mph): Approx. 6.0–6.5 seconds (manual) / Top Speed: Electronically limited to 180 km/h (111 mph) in Japan",
+    "img": "https://static.carfromjapan.com/car_364728e8-f3a7-4faf-a56c-68c8cec26cab_640_0"
+  },
+  {
+    "id": "12",
+    "nome": "1996 PORSCHE 911 993 GT2 LHD",
+    "descricao": "Miliage: 29,000km / Engine: Engine: 3.6L twin-turbocharged flat-six (M64/60R) / Wheels: Front: 9J x 18; Rear: 11J x 18 / Tires: Front: 235/40 ZR18; Rear: 285/35 ZR18 / Brakes: Vented discs front and rear with ABS / Suspension: Front: MacPherson struts; Rear: Multi-link independent / 0–100 km/h (0–62 mph): 4.4 seconds / Top Speed: 295 km/h (183 mph)",
+    "img": "https://img.pistonheads.com/LargeSize/porsche/911-993-gt2/porsche-911-993-gt2-1172692595-5.jpg"
+  },
+  {
+    "id": "13",
+    "nome": "1990 MERCEDES 190E EVOLUTION II",
+    "descricao": "Miliage: 40,000km / Engine: 2.5L Inline-4, DOHC, 16-valve/ Top Speed: ~250 km/h (155 mph) / 0–100 km/h (0–62 mph): ~7.1 seconds / Suspension: Front: Independent MacPherson struts / Rear: Multi-link suspension / Adjustable Ride Height (hydropneumatic self-leveling system) / Brakes: Ventilated discs front & rear",
+    "img": "https://img.pistonheads.com/LargeSize/mercedes-benz/190e/mercedes-benz-190e-S4740604-2.jpg"
   },
   {
     "id": "14",
-    "nome": "Supra",
-    "descricao": "supra",
-    "img": "https://static.carfromjapan.com/car_5e6999dc-4a89-45be-93c1-ec35fa50162f_640_0"
+    "nome": "1984 LAMBORGHINI COUNTACH LP5000",
+    "descricao": "Miliage: 15,000km / Engine: 4.8L naturally aspirated V12 / 0–60 mph: Approximately 4.8 seconds / Top Speed: Around 286 km/h (178 mph)",
+    "img": "https://img.pistonheads.com/LargeSize/lamborghini/countach-lp5000-s/uk-rhd/lamborghini-countach-lp5000-s-uk-rhd-1273838536-1.jpg"
+  },
+  {
+    "id": "15",
+    "nome": "1984 FERRARI TESTAROSSA RACE CAR",
+    "descricao": "Miliage: 10,000km / Engine: 4.9L Flat-12 (Tipo F113), naturally aspirated, fully rebuilt and dyno-tested / Suspension: Penske racing suspension / Brakes: Upgraded racing brakes / 0–60 mph: Approximately 4.8 seconds / Top Speed: Around 286 km/h (178 mph)",
+    "img": "https://img.pistonheads.com/LargeSize/ferrari/testarossa/ferrari-testarossa-S4715760-1.jpg"
+  },
+  {
+    "id": "16",
+    "nome": "1988 ASTON MARTIN V8 VANTAGE",
+    "descricao": "Miliage: 47,000km / 5.3L V8 (V580X) with four dual-barrel Weber carburettors, high-compression Cosworth pistons, and high-lift camshafts / 0–60 mph: Approximately 5.2 seconds / Top Speed: Up to 168 mph (270 km/h)",
+    "img": "https://img.pistonheads.com/LargeSize/aston-martin/v8-vantage-pre-90/volante/aston-martin-v8-vantage-pre-90-volante-S4875424-1.jpg"
+  },
+  {
+    "id": "17",
+    "nome": "1990 BMW E30 M3 SPORT EVOLUTION",
+    "descricao": "Miliage: 95,000km / Engine: 2.5L S14B25 inline-4, naturally aspirated / 0–100 km/h (0–62 mph): 6.5 seconds / Top Speed: 248 km/h (154 mph)",
+    "img": "https://img.pistonheads.com/LargeSize/bmw/e30-m3-86-92/m3/bmw-e30-m3-86-92-m3-S4851988-2.jpg"
+  },
+  {
+    "id": "18",
+    "nome": "2004 PORSCHE 911 996 GT3 RS - RHD",
+    "descricao": "Miliage: 16,000km / Engine: 3.6L Mezger flat-six (naturally aspirated) / 0–100 km/h (0–62 mph): 4.4 seconds / Top Speed: 306 km/h (190 mph)",
+    "img": "https://img.pistonheads.com/LargeSize/porsche/911-gt3-996/carrera-coupe/porsche-911-gt3-996-carrera-coupe-S4871613-2.jpg"
+  },
+  {
+    "id": "19",
+    "nome": "1999 ASTON MARTIN 6.3 VIRAGE",
+    "descricao": "Miliage: 36,000km / Engine: 6.3L V8, developed in collaboration with Callaway Engineering  0–60 mph in under 7 seconds / Top speed approaching 160 mph (250km/h)",
+    "img": "https://img.pistonheads.com/LargeSize/aston-martin/virage/virage/aston-martin-virage-virage-S4856333-1.jpg"
   }
 ]

@@ -11,19 +11,18 @@ export default function Login() {
   const AddCarro = async (formData : FormData) => {
     'use server';
 
+    const carrosdb = await ConexaoBD.retornaBD(arquivo);
+
     const novoCarro : CarrosProps = {
-      id: String(arquivo.length),
+      id: String(carrosdb.length + 1),
       nome : formData.get('nome') as string,
       descricao : formData.get('descricao') as string,
       img : formData.get('img') as string
     }
 
-    console.log(novoCarro);
-
-    const carrosdb = await ConexaoBD.retornaBD(arquivo);
     carrosdb.push(novoCarro);
     await ConexaoBD.armazenaBD(arquivo,carrosdb);
-    redirect('main/inicio');
+    redirect('/main/inicio');
     
   }
   
