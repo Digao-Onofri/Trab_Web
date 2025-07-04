@@ -67,9 +67,9 @@ export default function CreateUser(){
         <div className={styles.div}>
             <form action= {createUserClient} className={styles.cadastro}>
                 <h1>Cadastro</h1>
-                <input type="text" placeholder="Nome"/>
-                <input type="password" placeholder="Senha"/>
-                <input type="password" placeholder="Confirmar Senha"/>
+                <input type="text" placeholder="Email" name="email"/>
+                <input type="password" placeholder="Senha" name="password"/>
+                <input type="password" placeholder="Confirmar Senha" name="conf-password"/>
                 <button>Cadastrar</button>
             </form>
         </div>

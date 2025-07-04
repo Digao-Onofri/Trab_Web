@@ -57,10 +57,10 @@ export default function LoginPage(){
         <div className={styles.div}>
             <form action={loginAction} className={styles.login}>
                 <h1>Faça Login</h1>
-                <input type="text" placeholder="Nome" />
-                <input type="password" placeholder="Senha" />
+                <input type="text" placeholder="Email" name='email' />
+                <input type="password" placeholder="Senha" name='password' />
                 <button>Entrar</button>
-                <button type="button"> <Link href="/create">Cadastrar </Link></button>
+                <button> <Link href="/create">Cadastrar</Link></button>
             </form>
        </div>
     )
