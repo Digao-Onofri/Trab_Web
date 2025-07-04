@@ -1,6 +1,6 @@
 'use client'
 
-import '@/app/styles/formLogin.module.css';
+import styles from '@/app/styles/formLogin.module.css';
 import Image from 'next/image';
 import z from 'zod';
 import toast from 'react-hot-toast';
@@ -54,6 +54,14 @@ export default function LoginPage(){
 
 
     return (
-        
+        <div className={styles.div}>
+            <form action={loginAction} className={styles.login}>
+                <h1>Faça Login</h1>
+                <input type="text" placeholder="Nome" />
+                <input type="password" placeholder="Senha" />
+                <button>Entrar</button>
+                <button type="button"> <Link href="/create">Cadastrar </Link></button>
+            </form>
+       </div>
     )
 }

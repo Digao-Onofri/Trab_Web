@@ -5,7 +5,7 @@ import Image from "next/image";
 // import passwordIcon from "public/padlock.png";
 // import pokeLogo from "public/pokemon-logo.png";
 
-import '@/app/styles/formCadastro.module.css';
+import styles from '@/app/styles/formCadastro.module.css';
 import {z} from "zod"; //import do zod para apoio nas validações do front: npm i zod 
 import toast from 'react-hot-toast'; //import do react-hot-toast:  npm i react-hot-toast
 import { createUser } from "@/app/libs/credentials";
@@ -64,6 +64,14 @@ export default function CreateUser(){
         
 
     return(
-        
+        <div className={styles.div}>
+            <form action= {createUserClient} className={styles.cadastro}>
+                <h1>Cadastro</h1>
+                <input type="text" placeholder="Nome"/>
+                <input type="password" placeholder="Senha"/>
+                <input type="password" placeholder="Confirmar Senha"/>
+                <button>Cadastrar</button>
+            </form>
+        </div>
     )
 }
