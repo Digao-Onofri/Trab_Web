@@ -16,6 +16,7 @@
     flex: 0 300px;
     height: max-content;
     padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .card h2 {
