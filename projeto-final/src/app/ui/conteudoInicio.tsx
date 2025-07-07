@@ -15,8 +15,8 @@ export default function ConteudoInicio(){
             </div>
 
             <div className={styles.buttons}>
-                <button>Explorar Carros</button>
-                <button> <a href="/main/creater/">Anunciar meu Carro</a></button>
+                <button> <a href="/main/list">Explorar Carros</a></button>
+                <button> <a href="/dashboard/creater/">Anunciar meu Carro</a></button>
             </div>
 
             <div className={styles.destaques}>

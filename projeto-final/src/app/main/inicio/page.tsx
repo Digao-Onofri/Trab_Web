@@ -12,6 +12,5 @@ export default function inicio(){
             <ConteudoInicio />
         </div>
         </>
-
     );
 }

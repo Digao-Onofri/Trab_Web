@@ -11,4 +11,5 @@
     background-image: url('https://static.vecteezy.com/ti/fotos-gratis/p1/23977557-frente-visao-sombrio-silhueta-do-uma-moderno-esporte-preto-carro-isolado-em-preto-fundo-ai-gerado-gratis-foto.jpg');
     background-size: cover;
     background-position: center;
+    display: flex;
 }

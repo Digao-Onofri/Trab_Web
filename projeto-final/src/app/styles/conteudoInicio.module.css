@@ -48,7 +48,6 @@
     .destaques{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
         align-items: center;
         padding-bottom: 50px;
         width: 100%;
@@ -64,6 +63,11 @@
         .card{
             display: flex;
             padding-top: 20px;
+            flex-wrap: wrap;
+            align-items: stretch;
+            width: 100%;
+            justify-content: center;
+            max-width: 1400px;
             background-color: rgba(0, 0, 0, 0.6);
         }
     }
