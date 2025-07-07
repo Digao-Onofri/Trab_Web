@@ -52,7 +52,7 @@ export async function validateCredentials(data: LoginCredentials){
     if(isMatch)
     {
         await createSessionToken(user.id, user.email);
-        redirect('/main/inicio');
+        redirect('/main/inicio/');
     }
     else{
         return {error: 'Usuario ou senhas incorretos'}
