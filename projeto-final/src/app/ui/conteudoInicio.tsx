@@ -1,8 +1,8 @@
 // Componente que compoe todo o conteúdo da pagina inicial, que fica do lado do menu
 
-import styles from "@/app/styles/conteudoInicio.module.css"
-import Card from "@/app/ui/card"
-import CarrosPadrao from "@/db/carros-db.json"
+import styles from "@/app/styles/conteudoInicio.module.css";
+import Card from "@/app/ui/card";
+import CarrosPadrao from "@/app/db/carros-db.json";
 
 export default function ConteudoInicio(){
     return(
