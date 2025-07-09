@@ -15,7 +15,7 @@ export interface LoginCredentials {
 
 const LoginSchema = z.object({
     email: z.string().trim().email('Email com formato incorreto'),
-    password: z.string({message: 'Insira uma senha'}).trim().min(2, {message: 'Senha requer no mínimo 2 caracteres'})
+    password: z.string({message: 'Insira uma senha'}).trim().min(4, {message: 'Senha requer no mínimo 4 caracteres'})
 })
 
 export default function LoginPage(){
