@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/app/ui/header"
 import Footer from "@/app/ui/footer"
 import styles from "@/app/styles/main.module.css"
+import { Toaster } from "react-hot-toast";
+
 
 export const metadata: Metadata = {
   title: "Carros",
@@ -23,6 +25,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <Toaster position="top-right" />
       </body>
     </html>
   );

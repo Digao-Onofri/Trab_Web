@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "nome": "ivan",
+    "senha": "123"
+  },
+  {
+    "id": "414a26e4-9825-4829-871e-0d917171e071",
+    "email": "jaum@teste.com.br",
+    "password": "$2b$10$k6edDTi.msXfsJlkDemjie20VlxK7zHkfyEvPSYrJUwKe4ZtT..gS"
+  },
+  {
+    "id": "4fff0e9d-a48d-45b3-960a-0b76ad9974fb",
+    "email": "ivangames123@gmail.com",
+    "password": "$2b$10$K2fS0133r9oK56pXXbtn2.V1pxrodhOed9GCbtukw/6dDHkW0YrE6"
+  },
+  {
+    "id": "54d096a1-91a6-4d80-a698-25b31147f92f",
+    "email": "hehe@gmail.com",
+    "password": "$2b$10$qWIqocf77CoglyJbxgWQw.o5lv1cr4tUf6dPRq2VUr/aJ8QVtR1Fi"
+  }
+]
