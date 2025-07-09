@@ -19,9 +19,9 @@ export default function menu(){
             <button> <a href="/dashboard/creater">Adicionar</a></button>
             <button> <a href="/main/list/">Listar</a></button>
 
-            <form action={logout}>
+            <form action={logout} className={styles.form}>
                 <button>Sair</button>
             </form>
         </section>
     );
-}
+}   

@@ -1,8 +1,9 @@
+import styles from "@/app/(auth)/layout.module.css"
+
 export default function AuthLayout({ children }: { children: React.ReactNode }) {
   return (
   
-    <main>
-      <h1>Bem vindo a sua Garagem Digital! </h1>
+    <main className={styles.main}>
       {children}
     </main>
 
