@@ -14,7 +14,7 @@ Primeiramente clone o repositório ou baixe os arquivos.
 
 ### Utilização
 
-1. Instale as dependências no terminal com o comando:
+1. Instale as dependências no terminal com os comandos:
 
    ```bash
    npm install
@@ -38,7 +38,7 @@ Primeiramente clone o repositório ou baixe os arquivos.
     node -e "console.log(require('crypto').randomBytes(16).toString('hex'))"
     ```
 Lembre-se que o conteúdo do arquivo deve ser no seguinte padrão:
-TOKEN="resultado_do_código"
+TOKEN="resultado_do_código_do_terminal"
 
 3. Inicie o servidor:
 
@@ -46,4 +46,4 @@ TOKEN="resultado_do_código"
    npm run dev
    ```
 
-Após realizar todos os passos descritos, acesse a URL do servidor do frontend em seu navegador e a aplicação estará pronta para uso.
+Após realizar todos os passos descritos, acesse a URL do servidor em seu navegador e a aplicação estará pronta para uso.
