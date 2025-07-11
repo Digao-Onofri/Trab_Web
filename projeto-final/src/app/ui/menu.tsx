@@ -40,7 +40,9 @@ export default function Menu(){
             <button><a href="/main/inicio">Início</a></button>
             <button><a href="/dashboard/creater">Adicionar</a></button>
             <button><a href="/main/list/">Listar</a></button>
-            <button onClick={logout}>Sair</button>
+            <form action={logout} className={styles.form}>
+                <button>Sair</button>
+            </form>
             
             <section className={styles.avatarContainer}>
                 <button onClick={atualizaAvatar}>
