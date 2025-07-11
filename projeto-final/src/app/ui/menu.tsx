@@ -22,7 +22,7 @@ export default function Menu(){
             
             setAvatarSrc(dataUri);
         } catch (error) {
-            console.error("Failed to update avatar:", error);
+            setAvatarSrc('https://api.dicebear.com/9.x/pixel-art/svg');
         }
     }
     
