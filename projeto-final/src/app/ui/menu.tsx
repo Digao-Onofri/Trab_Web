@@ -1,58 +1,52 @@
-// Componente menu
 'use client'
 import styles from "@/app/styles/menu.module.css"
 import { deleteSessionCookie } from "../libs/session"
 import { redirect } from "next/navigation";
-import { useState } from 'react';
+import { useState, useEffect } from 'react'; 
 import axios from "axios";
-import AvatarProp, { isAvatarProp }  from "./avatar";
 
-export default function menu(){
+export default function Menu(){ 
 
     const avatares = ['Katherine', 'Brooklynn', 'Sara', 'Riley', 'Emery', 'Avery', 'Jessica', 'Ryan', 'Oliver', 'Sarah', 'Liliana', 'Aiden', 'Christian', 'Mackenzie', 'Kimberly', 'Jameson', 'Valentina', 'Chase', 'Amaya', 'Jack'];
 
-    const url = 'https://api.dicebear.com/9.x/pixel-art/svg'
+    const url = 'https://api.dicebear.com/9.x/pixel-art/svg?seed=';
 
-    const [canDisplay, setCanDisplay] = useState(false);
-    const [avatar, setAvatar] = useState(<AvatarProp image=''/>)
+    const [avatarSrc, setAvatarSrc] = useState('');
 
     const atualizaAvatar = async () => {
-
-        let newAvatar = isAvatarProp;
-        try{
-            const {data} = await axios.get(`${url}?seed='${avatares[Math.floor(Math.random() * (19 - 0 + 1)) + 0]}`);
-            newAvatar = {
-                image: data
-            }
-        }catch{
-            newAvatar = {
-                image : 'https://api.dicebear.com/9.x/pixel-art/svg'
-            }
+        try {
+            const randomSeed = avatares[Math.floor(Math.random() * avatares.length)];
+            const { data: svgText } = await axios.get(`${url}${randomSeed}`);
+            
+            const dataUri = `data:image/svg+xml;base64,${btoa(unescape(encodeURIComponent(svgText)))}`;
+            
+            setAvatarSrc(dataUri);
+        } catch (error) {
+            console.error("Failed to update avatar:", error);
         }
-        setAvatar(<AvatarProp {...newAvatar}/>);
-        setCanDisplay(true);
     }
     
+    useEffect(() => {
+        atualizaAvatar();
+    }, []);
+
     const logout = async () => {
         await deleteSessionCookie();
         redirect('/login');
     }
 
     return(
-
         <section className={styles.section}>
             <button><a href="/main/inicio">Início</a></button>
-            <button> <a href="/dashboard/creater">Adicionar</a></button>
-            <button> <a href="/main/list/">Listar</a></button>
-
-            <form action={logout} className={styles.form}>
-                <button>Sair</button>
-            </form>
-
-            <form action={atualizaAvatar} className={styles.form}>
-                <button><img src={avatar} alt="avatar" /></button>
-            </form>
-            {canDisplay && avatar}
+            <button><a href="/dashboard/creater">Adicionar</a></button>
+            <button><a href="/main/list/">Listar</a></button>
+            <button onClick={logout}>Sair</button>
+            
+            <section className={styles.avatarContainer}>
+                <button onClick={atualizaAvatar}>
+                    {avatarSrc && <img src={avatarSrc} alt="Avatar" width={100} height={100} />}
+                </button>
+            </section>
         </section>
     );
-}   
+}

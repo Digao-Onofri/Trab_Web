@@ -28,5 +28,10 @@
     "id": "0cc3b9a3-fd57-43c6-a796-2ee762e95255",
     "email": "pedro@teste.com.br",
     "password": "$2b$10$SotQ.VBQ2TFrHntqrkWR9eEMX2qSMIPQcqVpg3hT5XJ2qiEeThbia"
+  },
+  {
+    "id": "46398014-efc1-4b0e-9220-5ee1bcdfd1f3",
+    "email": "goncalves.onofri@gmail.com",
+    "password": "$2b$10$kBC8Lywrw.xhhMmdhk0kBugangulK8JkUX1sr/r8GrGbJSKIhdj7."
   }
 ]
