@@ -1,27 +1,19 @@
 // Componente menu
-
+'use client'
 import styles from "@/app/styles/menu.module.css"
 import { deleteSessionCookie } from "../libs/session"
 import { redirect } from "next/navigation";
-import axios from 'axios';
+import { buscaAvatar } from "../libs/api-request";
 
 export default function menu(){
-
-    const avatares = ['Katherine', 'Brooklynn', 'Sara', 'Riley', 'Emery', 'Avery', 'Jessica', 'Ryan', 'Oliver', 'Sarah', 'Liliana', 'Aiden', 'Christian', 'Mackenzie', 'Kimberly', 'Jameson', 'Valentina', 'Chase', 'Amaya', 'Jack']
 
     let avatar = 'https://api.dicebear.com/9.x/pixel-art/svg'
 
     const atualizaAvatar = async () => {
-        'use server';
-
-        let url = 'https://api.dicebear.com/9.x/pixel-art/svg?seed=' + avatares[Math.floor(Math.random() * (19 - 0 + 1)) + 0];
-
-        avatar = await axios.get(url);
-
+        avatar = await buscaAvatar()
     }
     
     const logout = async () => {
-        'use server';
         await deleteSessionCookie();
         redirect('/login');
     }
@@ -38,7 +30,7 @@ export default function menu(){
             </form>
 
             <form action={atualizaAvatar} className={styles.form}>
-                <button><img src={avatar()} alt="avatar" /></button>
+                <button><img src={avatar} alt="avatar" /></button>
             </form>
         </section>
     );
