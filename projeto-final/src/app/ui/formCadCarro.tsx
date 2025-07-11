@@ -14,7 +14,7 @@ export default function Login() {
     const carrosdb = await ConexaoBD.retornaBD(arquivo);
 
     const novoCarro : CarrosProps = {
-      id: String(carrosdb.length + 1),
+      id: String(crypto.randomUUID()),
       nome : formData.get('nome') as string,
       descricao : formData.get('descricao') as string,
       img : formData.get('img') as string

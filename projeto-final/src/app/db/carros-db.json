@@ -100,5 +100,11 @@
     "nome": "1999 ASTON MARTIN 6.3 VIRAGE",
     "descricao": "Miliage: 36,000km / Engine: 6.3L V8, developed in collaboration with Callaway Engineering  0–60 mph in under 7 seconds / Top speed approaching 160 mph (250km/h)",
     "img": "https://img.pistonheads.com/LargeSize/aston-martin/virage/virage/aston-martin-virage-virage-S4856333-1.jpg"
+  },
+  {
+    "id": "e5a726f7-90f0-4035-bb5d-42004234a817",
+    "nome": "Bugatti Bolide",
+    "descricao": "one of the most iconic hypercars",
+    "img": "https://www.ilusso.com/wp-content/uploads/Blog-Image-01-14.png"
   }
 ]
