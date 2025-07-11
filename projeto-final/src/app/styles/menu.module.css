@@ -18,6 +18,13 @@
     }
 }
 
+.avatarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
 .form{
     width: 100%;
     display: flex;
