@@ -5,6 +5,7 @@ import ConexaoBD from "./conexao-bd";
 
 import bcrypt from 'bcrypt'; //Para criptografar a senha. npm i bcrypt
 import { LoginCredentials } from "../(auth)/login/page";
+import { deleteSessionCookie } from "./session";
 import { createSessionToken } from "./session";
 
 const userDBFile = 'usuarios-db.json';
@@ -58,4 +59,9 @@ export async function validateCredentials(data: LoginCredentials){
         return {error: 'Usuario ou senhas incorretos'}
     }
 
+}
+
+export async function logoutAction() { // Nomeei como logoutAction para evitar conflito e deixar claro que é uma Action
+    await deleteSessionCookie();
+    redirect('/login');
 }
