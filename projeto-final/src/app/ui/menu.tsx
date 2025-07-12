@@ -4,6 +4,7 @@ import { deleteSessionCookie } from "../libs/session"
 import { redirect } from "next/navigation";
 import { useState, useEffect } from 'react'; 
 import axios from "axios";
+import { logoutAction } from "../libs/credentials";
 
 export default function Menu(){ 
 
@@ -36,18 +37,14 @@ export default function Menu(){
         atualizaAvatar();
     }, []);
 
-    const logout = async () => {
-        await deleteSessionCookie();
-        redirect('/login');
-    }
-
     return(
         <section className={styles.section}>
             <button><a href="/main/inicio">Início</a></button>
             <button><a href="/dashboard/creater">Adicionar</a></button>
             <button><a href="/main/list/">Listar</a></button>
-            <form action={logout} className={styles.form}>
-                <button>Sair</button>
+            
+            <form action={logoutAction} className={styles.form}>
+                <button type="submit">Sair</button>
             </form>
             
             <section className={styles.avatarContainer}>
