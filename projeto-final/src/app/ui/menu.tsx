@@ -17,14 +17,20 @@ export default function Menu(){
         try {
             const randomSeed = avatares[Math.floor(Math.random() * avatares.length)];
             const { data: svgText } = await axios.get(`${url}${randomSeed}`);
+
+            // encodeURIComponent remove caracteres especiais do formato <svg width="">
+            // auxiliar da funcao btoa que transforma os caracteres de utf-8 para base64
+            // btoa binary to ascii
             
             const dataUri = `data:image/svg+xml;base64,${btoa(unescape(encodeURIComponent(svgText)))}`;
             
             setAvatarSrc(dataUri);
-        } catch (error) {
+        } catch {
             setAvatarSrc('https://api.dicebear.com/9.x/pixel-art/svg');
         }
     }
+    
+    // garante que quando o usuário entrar no menu ele tenha um avatar pronto
     
     useEffect(() => {
         atualizaAvatar();
