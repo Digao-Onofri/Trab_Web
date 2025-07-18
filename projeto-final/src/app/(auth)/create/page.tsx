@@ -1,7 +1,6 @@
 'use client';
 
 // Create a random token for the file .env (TOKEN="") node -e "console.log(require('crypto').randomBytes(16).toString('hex'))"
-import Image from "next/image";
 // import userIcon from "public/user.png";
 // import passwordIcon from "public/padlock.png";
 // import pokeLogo from "public/pokemon-logo.png";
