@@ -1,10 +1,9 @@
 'use client'
-import styles from "@/app/styles/menu.module.css"
-import { deleteSessionCookie } from "../libs/session"
-import { redirect } from "next/navigation";
+import styles from "@/app/styles/menu.module.css";
 import { useState, useEffect } from 'react'; 
 import axios from "axios";
 import { logoutAction } from "../libs/credentials";
+import Image from "next/image";
 
 export default function Menu(){ 
 
@@ -49,7 +48,7 @@ export default function Menu(){
             
             <section className={styles.avatarContainer}>
                 <button onClick={atualizaAvatar}>
-                    {avatarSrc && <img src={avatarSrc} alt="Avatar" width={100} height={100} />}
+                    {avatarSrc && <Image src={avatarSrc} alt="Avatar" width={100} height={100}/>}
                 </button>
             </section>
         </section>
