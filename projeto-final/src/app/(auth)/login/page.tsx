@@ -1,7 +1,6 @@
 'use client'
 
 import styles from '@/app/styles/formLogin.module.css';
-import Image from 'next/image';
 import z from 'zod';
 import toast from 'react-hot-toast';
 import Link from 'next/link';

@@ -1,6 +1,7 @@
 // Componente formulario de cadastro
 
 import styles from "@/app/styles/formCadastro.module.css"
+import Link from "next/link";
 
 export default function Cadastro(){
     return(
@@ -10,7 +11,7 @@ export default function Cadastro(){
                 <input type="text" placeholder="Nome"/>
                 <input type="password" placeholder="Senha"/>
                 <input type="password" placeholder="Confirmar Senha"/>
-                <button><a href="/">Cadastrar</a></button>
+                <button><Link href="/">Cadastrar</Link></button>
             </form>
         </div>
     );
